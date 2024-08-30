@@ -252,3 +252,18 @@ h6,
 .blog-item:hover img {
     transform: scale(1.1);
 }
+.m-0.text-uppercase.text-primary {
+    font-size: 18px;
+}
+
+@media (min-width: 600px) {
+    .m-0.text-uppercase.text-primary {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .m-0.text-uppercase.text-primary {
+        font-size: 32px;
+    }
+}
